@@ -16,7 +16,7 @@ function Home() {
 
             <main>
                 <NavMenu photo={lupa} img={icone} />
-                <div "jumbotron mt-2 border-bottom border-success">
+                <div className="jumbotron mt-2 border-bottom border-success">
                     <h1>Bem Vindo!</h1>
                     <h3>Entre e descubra o poder da leitura. Temos muitos conteúdos para te ajudar nessa jornada.</h3>
                 </div>
@@ -42,8 +42,6 @@ function Home() {
                     <br></br>
                     <CardUs photo={notbook}/>
                 </div>
-
-
             </main>
         </ContainerMenu>
 
