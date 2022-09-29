@@ -6,7 +6,7 @@ function CardUs({ photo, info, title, subtitle }) {
             <div className="container">
                 <div className="linha">
                     <div className=" mt-2">
-                        <div className="card bg-success">
+                        <div className="card">
                             <img className="card-img-top" src={photo}
                                 alt={info} />
                             <div className="card-body">
