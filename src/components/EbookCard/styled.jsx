@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const EbookCardUIX = styled.div`
-
+        border: solid 1px ;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 20rem;
         height: 25rem;
+        margin-left: 2rem;
         border-radius: 10px;
         background-color: #f3ebeb;
 

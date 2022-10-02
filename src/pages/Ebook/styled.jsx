@@ -10,7 +10,7 @@ export const EbookUIX = styled.div`
         border-radius: 5px;
         display: flex;
         flex-wrap: wrap;
-        gap: 5px;
+        gap: 10px;
         margin: 5px;
         padding: 10px;
         
