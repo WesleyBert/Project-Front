@@ -1,4 +1,5 @@
 import { NavBackground } from "./styled";
+import { Link } from 'react-router-dom'
 
 function NavMenu({ photo, img }) {
   return (
@@ -15,13 +16,13 @@ function NavMenu({ photo, img }) {
 
         <div className="collapse navbar-collapse" id="menu">
           <ul className="navbar-nav">
-            <li className="nav-item"><a href="./index.html" className="nav-link">Home</a></li>
-            <li className="nav-item"><a href="./portuga.html" className="nav-link">
+            <li className="nav-item"><Link className="nav-link" to='/home'>Home</Link></li>
+            <li className="nav-item"><Link to='/desafio' className="nav-link">
               <img src={img} width="20px" />
               Desafios Portuga
-            </a></li>
-            <li className="nav-item"><a href="./ebooks.html" className="nav-link">Ebooks</a></li>
-            <li className="nav-item"><a href="./login.html" className="nav-link">Login</a></li>
+            </Link></li>
+            <li className="nav-item"><Link to='/ebook' className="nav-link">Ebooks</Link></li>
+            <li className="nav-item"><Link to='/' className="nav-link">Login</Link></li>
           </ul>
 
         </div>

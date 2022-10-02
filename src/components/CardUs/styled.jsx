@@ -3,12 +3,13 @@ import styled from "styled-components";
 export const CardIUX = styled.div`
 .container{
     width: 25rem;
-    height: auto;
+    height: 40rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin-left: 2.3rem;
 
+    
 }
 .card{
     border: solid;
@@ -22,5 +23,10 @@ export const CardIUX = styled.div`
     align-items: center;
 }
 
+.container:hover{
+        transform: scale(1.1);
+        border-radius: 10px;
+        cursor: pointer;
+ }
 
 `;

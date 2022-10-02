@@ -13,7 +13,7 @@ import { EbookUIX } from "./styled";
 import MenuSide from "../../components/MenuSide";
 
 
-function Ebook() {
+export function Ebook() {
     return (
         <main>
             <NavMenu />
@@ -33,4 +33,3 @@ function Ebook() {
         </main>
     );
 }
-export default Ebook;

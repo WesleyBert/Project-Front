@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 
 import './styled.css';
 
- function Desafio({photo}){
+ export function Desafio({photo}){
     return(
         <main>
             <NavMenu/>
@@ -40,4 +40,3 @@ import './styled.css';
     )
  }
 
- export default Desafio;

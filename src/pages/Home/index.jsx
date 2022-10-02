@@ -1,5 +1,5 @@
 import SectionCard from "../../components/SectionCard";
-import NavMenu from "../../navbar";
+import NavMenu from "../../components/navbar";
 
 import icone from '../../assets/livro_icone.png';
 import lupa from '../../assets/lupa-icon.png'
@@ -15,12 +15,10 @@ import Footer from '../../components/Footer'
 import { ModelUi } from '../../components/Model/styled';
 import { FooterUix } from "../../components/Footer/styled";
 
-function Home() {
+export function Home() {
     return (
-
-
         <main>
-            <NavMenu photo={lupa} img={icone} />
+            <NavMenu photo={lupa} img={icone} />            
             <div className="jumbotron mt-2 border-bottom border-success">
                 <h1>Bem Vindo!</h1>
                 <h3>Entre e descubra o poder da leitura. Temos muitos conteúdos para te ajudar nessa jornada.</h3>
@@ -64,5 +62,3 @@ function Home() {
 
     );
 }
-
-export default Home;
