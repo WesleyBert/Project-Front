@@ -1,16 +1,12 @@
 import styled from "styled-components";
-import img from '../../assets/fundo.jpg'
 
 export const LoginUIX = styled.div`
 
      display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: url(${img});
-    width: 100%;
-    height: 45rem;
-
-    
+    align-items: center;  
+    background-image: radial-gradient(circle at 50% 50%, #a4e0c8 0, #8ed5c1 16.67%, #6dc4b5 33.33%, #3aaea4 50%, #009895 66.67%, #00878d 83.33%, #007c8b 100%);
+    height:43.4rem;
 
 .container-fluid {
     background: rgb(48,174,158);
@@ -55,12 +51,6 @@ export const LoginUIX = styled.div`
     padding: 10px;
     border-radius: 4px;
     display: none;
-}
-
-.principal{
-    width: 26em;
-    height: 32em;
-    border-radius: 4%;
 }
 
 .model-cadastro{
